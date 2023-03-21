@@ -10,5 +10,6 @@ namespace DIO.Series.Interfaces
         void Exclui(int id);        
         void Atualiza(int id, T entidade);
         int ProximoId();
+        bool Existe(int id);
     }
 }
